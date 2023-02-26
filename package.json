@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "antd": "^5.0.3",
+    "axios": "^1.2.0",
+    "bootstrap": "^5.2.3",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "google-maps-react": "^2.0.6",
+    "jquery": "^3.6.1",
+    "navigate": "^0.3.6",
+    "nodemailer": "^6.8.0",
+    "react-bootstrap": "^2.6.0",
+    "react-select": "^5.7.0",
+    "sass": "^1.56.1",
+    "sendemail": "^4.0.3"
+  }
+}
