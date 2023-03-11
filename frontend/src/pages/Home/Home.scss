@@ -1,0 +1,318 @@
+.main{
+  max-width: 100%;
+
+  nav{
+    padding:0 !important; 
+  }
+
+  .responsive-wrapper {
+  width: 90%;
+  max-width: 1280px;
+  margin: auto;
+  }
+
+  /* Sticky header */
+  .header-outer {
+  /* Make it stick */
+  height: var(--header-outer-height);
+  position: sticky;
+  z-index: 200;
+  white-space: nowrap;
+  top: calc(
+    var(--header-height-difference) * -1
+  ); /* Multiply by -1 to get a negative value */
+  display: flex;
+  align-items: center;
+  /* Other */
+  background-color: var(--header-bg);
+  box-shadow: 0 2px 10px 0 rgba(0,0,0, 0.1);
+  height:133px;
+  }
+
+  .header-inner {
+  /* Make it stick */
+  height: var(--header-inner-height);
+  position: sticky;
+  top: 0;
+  max-width: 100%;
+  /* Other */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  }
+
+  /* Styling of other elements */
+  .header-logo img {
+  display: flex;
+  height:70px;
+  }
+  .header-logo{
+    display: flex;
+  }
+
+  .header-navigation {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top:30px;
+  }
+
+  .header-navigation a,
+  .header-navigation button {
+  font-size: 1.125rem;
+  color: inherit;
+  margin-left: 1.75rem;
+  position: relative;
+  font-weight: 500;
+  }
+
+  .header-navigation a {
+  display: none;
+  font-size: 1.125rem;
+  color: inherit;
+  text-decoration: none;
+  }
+
+  .header-navigation button {
+  border: 0;
+  background-color: transparent;
+  padding: 0;
+  max-width: 100%;
+  }
+
+  .header-navigation a:hover:after,
+  .header-navigation button:hover:after {
+  transform: scalex(1);
+  }
+
+  .header-navigation a:after,
+  .header-navigation button:after {
+  transition: 0.25s ease;
+  content: "";
+  display: block;
+  width: 100%;
+  height: 2px;
+  background-color: currentcolor;
+  transform: scalex(0);
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  }
+
+  .main {
+  margin-top: 0rem;
+  }
+
+  .widget {
+  width: 100%;
+  max-width: 600px;
+  border-radius: 8px;
+  box-shadow: 0 15px 30px 0 rgba(0,0,0, 0.1);
+  background-color: #fff;
+  padding: 2.5rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2rem;
+  font-size: 1.125rem;
+  }
+
+  .widget > * + * {
+  margin-top: 1.25em;
+  }
+
+  .widget h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1.25;
+  }
+
+  .widget code {
+  display: inline-block;
+  padding: 0.125em 0.25em;
+  border-radius: 2px;
+  background-color: #bee5d3;
+  }
+
+  .widget strong {
+  font-weight: 700;
+  }
+
+  @media (min-width: 800px) {
+  .header-navigation a {
+    display: inline-block;
+  }
+  }
+
+
+
+  a, button {
+  color: #fff;
+  outline: medium none;
+  }
+  a, button {
+  color: #fff;
+  outline: medium none;
+  }
+
+
+  li {
+  list-style: none;
+  }
+
+  a, button {
+    color: #fff;
+    outline: medium none;
+  }
+  ul {
+  margin: 0px;
+  padding: 0px;
+  }
+
+  li {
+  list-style: none;
+  }
+
+  body{
+    font-family:fantasy;
+  }
+  .logo{
+    color:rgba(226, 145, 39, 0.977);
+    font-family: fantasy;
+  }
+
+  .container{
+    text-align: center;
+    color:rgba(1, 11, 22, 0.95);
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* background-image:url(./bayu-syaits-R_pCJvo1lNQ-unsplash.jpg); */
+    background-size:cover;
+    background-position: center;
+    background-attachment: fixed;
+    max-width: 100%;
+  }
+
+  h1{
+    font-weight: 800;
+    font-size: 3rem;
+  }
+
+  p{
+    max-width: 52ch;
+    line-height: 1.5;
+    padding: 1em;
+  }
+
+
+  .otherpage,button{
+  display: inline-block;
+  background-color: #f39e2d;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 10px;
+  font-weight: 700;
+  letter-spacing: 2.5px;
+  font-size: 0.875rem;
+  font-family: cursive;
+  cursor: pointer;
+  }
+  .otherpage{
+  padding: 1em 1.5em;
+  }
+  .blank
+  .other{
+    width: 100%;
+    min-height: 60vh;
+    background-color: var(--color);
+  }
+
+  .first{
+  background-image:url(../../assets/images/bayu-syaits-R_pCJvo1lNQ-unsplash.jpg);
+  max-width: 100%;
+  }
+  .second{
+    background-image: url(../../assets/images/bayu-syaits-R_pCJvo1lNQ-unsplash.jpg);  
+    background-attachment: fixed;
+    height: 600px;
+    flex-direction:row; 
+      gap: 3.5em;
+    max-width: 100%;
+  }
+  h3{
+    font-weight: 700;
+    font-size: 1.2rem;
+    margin-top: 1em;
+  }
+
+  .card >a{
+    margin-bottom: 2em;
+  }
+  .item {
+    display: flex;
+    max-width: 320px;
+    background-color: rgb(231 182 115 / 65%);
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0rem;
+    gap: inherit;
+    border-radius: 0.5em;
+    /* -webkit-box-shadow: 0px 29px 38px -15px rgba(0,0,0,.42);
+    -moz-box-shadow:0px 29px 38px -15px rgba(0,0,0,.42); */
+  box-shadow:0px 29px 38px -15px rgba(0, 0, 0,.6);
+
+  }
+
+  .starter{
+    padding-right: 4%;
+  }
+  .img{
+    width: 90%;
+    height: 200px;
+    background-color: rgba(232, 178, 86, 0.644);
+    background-size: cover;
+    background-position: center;
+    margin-top: 20px;
+    border-radius: 0.3em;
+  }
+  .img-first{
+    background-image: url(../../assets/images/services.jpg);
+  }
+  .img-second{
+    background-image: url(../../assets/images/testimonials.jpg);
+  }
+  .img-third{
+    background-image: url(../../assets/images/stores.jpg);
+  }
+  .tslogo,.washlogo,.dlv_logo{
+  background-color: #cd801bdb;
+  height: 161px;
+  border-radius: 104px;
+  }
+
+
+
+
+  .row {
+  padding-top: 8%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+  }
+
+  .col-lg-4 {
+  flex: 0 0 24.533333%;
+  max-width: 33.333333%;
+  padding-left:1% ;
+  padding-right:1% ;
+  }
+
+  .text-center {
+  text-align: center!important;
+  }
+
+}

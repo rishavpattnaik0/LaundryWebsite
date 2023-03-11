@@ -1,0 +1,116 @@
+.container1234{
+    text-align: center;
+    color:rgba(1, 11, 22, 0.95);
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image:url(../../assets/images/bayu-syaits-R_pCJvo1lNQ-unsplash.jpg);
+    background-size:cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+h3{
+    font-weight: 700;
+    font-size: 1.2rem;
+    margin-top: 1em;
+}
+
+.card1234>a{
+    margin-bottom: 2em;
+}
+
+.img1234{
+    width: 90%;
+    height: 268px;
+    background-color: lightgray;
+    background-size: cover;
+    background-position: center;
+    margin-top: 20px;
+    border-radius: 0.3em;
+}
+
+.item1234{
+    display: flex;
+    max-width: 320px;
+    background-color: rgb(253 228 195 / 67%);
+    flex-direction: column;
+    align-items: center;
+    border-radius: 0.5em;
+    margin-top: 15% 20% 0;
+    width: 387px;
+    height: 540px;
+    padding-top: 2%;
+    box-shadow:0px 29px 38px -15px rgba(0, 0, 0,.6);
+}
+
+.ruppee
+{
+    height: 16px;
+}
+
+.second1234{
+    /* background-image: url(); */
+    background-attachment: fixed;
+    height: 750px;
+    flex-direction:row; 
+    gap: 3.5em;
+    padding-top: 5%;
+    padding-left: 5rem;
+}
+
+#plus,#minus,#text{
+    border: none;
+    background-color: white;
+    width: 20%;
+    font-size: 1.2rem;
+}
+ .cartitems1234{
+    display: flex;
+    align-items: center;
+    margin-top:2rem;
+}
+#text{
+    width: 20px;
+    margin-right: 1rem;
+    text-align:center ;
+}
+#plus{
+    color: hsl(26, 100%, 55%);
+    padding-right: 15px;
+}
+#minus{
+    color: hsl(26, 100%, 55%);
+    margin-right: 15px;
+}
+.addtocart1234{
+    border-radius: 20px;
+    border: none;
+    height: 45px;
+    width: 150px;
+    background-color: hsl(26, 100%, 55%);
+    color: white;
+    outline: none;
+} 
+.addtocart1234:focus{
+    border: none; 
+    outline: none;
+}
+.row{
+    flex-direction: row;
+} 
+
+.img-first1{
+    background-image: url(../../assets/images/bedsheets.jpg);
+}
+.img-second2{
+    background-image: url(../../assets/images/pillow.jpg);
+}
+.img-third3{
+    background-image: url(../../assets/images/blankets.jpg);
+}
+
+

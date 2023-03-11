@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap');
+body{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	
+}
+.outerdiv1234
+{
+	width: 100%;
+    min-height: 100vh;
+    background: #fadcbf;
+    display: flex;
+    justify-content: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.innerdiv1234
+{
+	transform: scale(0.9);
+	margin: 1rem;
+	display: block;
+	grid-template-rows: repeat(2,22rem);
+	grid-template-columns: repeat(4,17rem);
+}
+.section{
+    padding-bottom: 4rem;
+}
+.eachdiv
+{	
+	margin-top: 3.5rem;
+	padding: 1rem 2rem;
+    border-radius: 0.8rem;
+    box-shadow: 0px 45px 40px #00000098;
+    color: white;
+    margin-bottom: 3rem;
+}
+
+.div1
+{
+	background: #c83fb13c;
+    grid-column: 1/3;
+    grid-row: 1/2;
+    color: white;
+    background-repeat: no-repeat;
+    background-position-x: 25rem;
+    box-shadow: #12161ad3;
+}
+
+.userdetails
+{
+	display: flex;
+}
+.imgbox
+{
+	margin-right: 1rem;
+}
+.imgbox img
+{
+	border-radius: 50%;
+	width: 2rem;
+	border: 2px solid #cec5c5;
+}
+.intro{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ margin-left: 30rem;   
+}
+.detbox
+{
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.detbox p
+{
+	margin: 0;
+}
+.imagebro{
+    margin-top: 1rem;
+}
+.detbox .name
+{
+	color: red;
+    font-size: 1.9rem;
+    margin-bottom: 0.1rem;
+    font-weight: 600;
+}
+.detbox .name.dark
+{
+	color: #49505A;
+}
+.detbox .designation
+{
+	color: hsl(0, 0%, 81%);
+    opacity: 50%;
+    font-size: 0.8rem;
+}
+.go{
+	display: flex;
+}
+.detbox .designation.dark
+{
+	color: #49505A;
+}
+.review h4
+{
+	font-size: 1.7rem;
+	color: #FFF;
+    font-weight: 600;
+    line-height: 1.5;
+    margin-bottom: 0.8rem;
+}
+.review.dark h4{
+	color:#4B5258;
+}
+.review p
+{
+	font-size: 0.95rem;
+    color: #0d2235;
+    font-weight: 500;
+    opacity: 50%;
+    line-height: 1.5;
+}
+.review.dark p{
+	color: #0e0e0e;
+}
+
+
+@media only screen and (max-width: 1000px)
+{
+	.innerdiv1234
+	{
+		transform: scale(0.7);
+	}
+}
+@media only screen and (max-width: 800px)
+{
+	.innerdiv1234
+	{
+		transform: scale(0.6);
+	}
+}
+@media only screen and (max-width: 600px)
+{
+	.div1 {
+		background-position-x: 10rem;
+	}
+	.innerdiv1234
+	{
+		display: flex; 
+		flex-direction: column;
+		transform: scale(1);
+		margin: 2rem;
+		margin-bottom: 5rem;
+	}
+	.attribution
+	{
+		position: relative;
+	}
+}
