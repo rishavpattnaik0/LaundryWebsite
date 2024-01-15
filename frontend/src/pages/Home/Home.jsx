@@ -29,7 +29,7 @@ const Home = () => {
     </div>
 <div class="container first">
     <h1 class="logo"> GoLaundry</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus facere odit, sed fugit id magnam quas esse? Animi, eaque aliquam! Quo, laborum harum? Suscipit assumenda voluptate ipsa quia maxime illum.</p>
+    <p><h2>NOTE</h2>This website is a developmental prototype and only build during learning of the process .</p>
     <a>Welecome folks!!</a>
     </div>
     <div class="blank"></div>
