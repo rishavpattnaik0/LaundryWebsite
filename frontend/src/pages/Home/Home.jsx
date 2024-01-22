@@ -94,38 +94,6 @@ const Home = () => {
         </div>
     </section>
 </div>
-  
-
-<div class="container second">
-    <div class="item">
-        <div class="img img-first"></div>
-        <div class="card">
-            <h3>Services</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus minima ratione esse sequi sit et, consequatur corporis quia eligendi, iste amet dolor consectetur ducimus perferendis architecto saepe nulla commodi officia.</p>
-        <a className="otherpage" href={ROUTES.Services}>Visit</a>
-        </div>
-    </div>
-
-    <div class="item">
-        <div class="img img-second"></div>
-        <div class="card">
-            <h3>Testimonials</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus minima ratione esse sequi sit et, consequatur corporis quia eligendi, iste amet dolor consectetur ducimus perferendis architecto saepe nulla commodi officia.</p>
-        <a className='otherpage' href={ROUTES.Testimonials}>View</a>
-        </div>
-    </div>
-
-    <div class="item">
-        <div class="img img-third"></div>
-        <div class="card">
-            <h3>Stores</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus minima ratione esse sequi sit et, consequatur corporis quia eligendi, iste amet dolor consectetur ducimus perferendis architecto saepe nulla commodi officia.</p>
-        <a class="otherpage" href={ROUTES.Stores}>Find</a>
-        </div>
-    </div>
-  </div>
-
-
 </div>
   )
 }
