@@ -15,6 +15,7 @@ const Home = () => {
     const changeDir = (dir) =>{
         navigate(dir)
     }
+    
   return (
     <div className='main'>
     <div class="header-outer">
@@ -94,6 +95,12 @@ const Home = () => {
         </div>
     </section>
 </div>
+        <iframe
+    allow="microphone;"
+    width="350"
+    height="430"
+    src="https://console.dialogflow.com/api-client/demo/embedded/a0dd81f3-cc74-42f7-a1e4-c0c3da6a2c08">
+</iframe>
 </div>
   )
 }
