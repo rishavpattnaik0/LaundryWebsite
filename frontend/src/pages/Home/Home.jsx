@@ -95,10 +95,10 @@ const Home = () => {
         </div>
     </section>
 </div>
-        <iframe
+<iframe
     allow="microphone;"
-    width="350"
-    height="430"
+    width="3500"
+    height="4300"
     src="https://console.dialogflow.com/api-client/demo/embedded/a0dd81f3-cc74-42f7-a1e4-c0c3da6a2c08">
 </iframe>
 </div>
