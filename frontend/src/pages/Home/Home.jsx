@@ -28,12 +28,7 @@ const Home = () => {
     </div>
     </div>
     </div>
-        <iframe
-    allow="microphone;"
-    width="3500"
-    height="4300"
-    src="https://console.dialogflow.com/api-client/demo/embedded/a0dd81f3-cc74-42f7-a1e4-c0c3da6a2c08">
-</iframe>
+
 <div class="container first">
     <h1 class="logo"> GoLaundry</h1>
     <p><h1>NOTE</h1>This website is a developmental with DialogFlow ES prototype and only build during learning of the process .</p>
