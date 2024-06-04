@@ -36,7 +36,7 @@ const Home = () => {
 </iframe>
 <div class="container first">
     <h1 class="logo"> GoLaundry</h1>
-    <p><h2>NOTE</h2>This website is a developmental prototype and only build during learning of the process .</p>
+    <p><h1>NOTE</h1>This website is a developmental with DialogFlow ES prototype and only build during learning of the process .</p>
     <a>Welecome folks!!</a>
     </div>
     <div class="blank"></div>
